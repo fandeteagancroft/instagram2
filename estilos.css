@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0; 
+    padding: 0;
+}
+
+.caja1{
+    background-color: rgba(255, 255, 0, 0.596);
+    height: 100vh;
+
+}
+.caja2{
+    background-color: rgba(0, 0, 255, 0.377);
+    height: 100vh;
+
+}
+.caja3{
+    background-color: rgba(255, 0, 0, 0.308);
+    height: 150vh;
+}
+
+.caja4{
+    background-color:white;
+    height: 100px
+    
+    
+}
+.caja5{
+    background-color: white;
+    height: 100px;
+}
+.caja6{
+    background-color: white;
+    height: 100px;
+
+}
+.caja7{
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+}
+
+.caja8{
+    background-color: crimson;
+    height: 600px;
+}
+.caja9{
+    background-color: white;
+    height: 600px;
+
+}
+.caja10{
+
+    height: 600px;
+}
+
+.caja11{
+    background-color: white;
+    height: 600px;
+}
+.caja12{
+    background-color: rgb(220, 93, 20);
+    height: 100px;
+}
+.caja13{
+    background-color: rgb(190, 220, 20);
+    height: 100px;
+}
+
+@media (min-width: 150px) and (max-width:1400px)
+{
+    .ocultarcaja3 {display: none;}
+}
+
+@media(min-width: 0px ) and (max-width:769px)
+{
+    .ocultarCaja1{ display: none;}
+    
+    
+}
+@media(min-width: 769px ) and (max-width:6000px)
+{
+    
+    .ocultar_contenedor{
+        display: none;
+    }
+}
+
+/* estilos de circulos*/
+.circulo{
+    
+    border-radius: 100%; 
+    height:56px;
+    width:56px ;
+    border: 2px solid rgb(209, 17, 177);
+    margin: 10px;
+}
+ul{
+    list-style: none;
+} 
+.story{
+    font-size: 12px;
+}
+
+.fukinliam{
+    border-radius: 100%; 
+    height:36px;
+    width:36px ;
+    margin: 10px;
+    padding: 1px;
+}
+.btn.btn-primary{
+    background-color: rgb(190, 190, 190);
+
+}
